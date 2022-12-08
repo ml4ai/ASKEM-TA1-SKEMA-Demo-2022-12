@@ -1,0 +1,68 @@
+{"Wa":[{"influx":1,"infusion":2},
+			 {"influx":2,"infusion":3}],
+ "Win":[{"arg":1,"call":1},
+ 				{"arg":2,"call":1},
+ 				{"arg":2,"call":2}],
+ "Box":[{"parameter":"beta","metadata":2},
+ 				{"parameter":"gamma","metadata":3}],
+ "Qin":[{"variable":"S","metadata":1},
+ 				{"variable":"I"},
+ 				{"variable":"R"}],
+ "Qout":[{"tanvar":"S'"},
+ 				 {"tanvar":"I'"},
+ 				 {"tanvar":"R'"}],
+ "Wn":[{"efflux":1,"effusion":1},
+ 			 {"efflux":2,"effusion":2}],
+ "metadata_collection": [
+ 		[{
+                "metadata_type": "source_code_comment",
+                "comment": "    :param susceptible: Current amount of individuals that are susceptible",
+                "code_file_reference_uid": "ae4c81e0-7c9a-8ff1-6f47-038055079385",
+                "provenance": {
+                    "method": "heuristic_1.0",
+                    "timestamp": "2022-12-08 07:27:40.826705"
+                }
+            }
+     
+ 		],
+ 		[{
+                "metadata_type": "source_code_comment",
+                "comment": "    :param beta: The rate of exposure of individuals to persons infected with COVID-19",
+                "code_file_reference_uid": "ae4c81e0-7c9a-8ff1-6f47-038055079385",
+                "provenance": {
+                    "method": "heuristic_1.0",
+                    "timestamp": "2022-12-08 07:27:40.836928"
+                }
+            }
+ 		],
+    [{
+                "metadata_type": "source_code_comment",
+                "comment": "     gamma         The expected recovery rate from COVID-19 for infected individuals",
+                "code_file_reference_uid": "ae4c81e0-7c9a-8ff1-6f47-038055079385",
+                "provenance": {
+                    "method": "heuristic_1.0",
+                    "timestamp": "2022-12-08 07:27:40.825743"
+                }
+            },
+      {
+                "metadata_type": "text_literal_value",
+                "text_extraction": {
+                    "document_reference_uid": "7596863165735053645",
+                    "page": 5,
+                    "block": 15,
+                    "char_begin": 62,
+                    "char_end": 68
+                },
+                "variable_identifier": "\u03b3",
+                "value": "1/14",
+                "grounding": [
+                    {"argument_name":"value","id":"vo:0011083","description":"D15","score":0.6055396}
+                ],
+                "provenance": {
+                    "method": "embedding_similarity_1.0",
+                    "timestamp": "2022-12-08 07:27:40.825862"
+                }
+            }
+    ]
+ ]
+}
