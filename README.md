@@ -30,3 +30,14 @@
 	- `epidemiology/CHIME/CHIME_penn_full_model/`
 	
 	You will update your local paths to these directories in the `demo/skema-demo-2022-Dec.ipynb` jupyter notebook.
+
+
+## Run Demo
+
+1. Start the SKEMA Server:
+  - cd to `<skema>/skema/skema/skema-rs/`
+  - `docker-compose -f docker-compose.memgraph.yml up --build -d`
+  - `cargo run --bin skema_service`
+
+2. Launch the demo python notebook:<br> `<ASKEM-TA1-SKEMA-Demo-2022-12>/demo/skema-demo-2022-Dec.ipynb`<br>
+and work through sequentially.
